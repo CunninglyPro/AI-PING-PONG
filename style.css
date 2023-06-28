@@ -31,6 +31,15 @@ body {
     margin-top: 10px;
 }
 
+#canvas {
+    width: 720px;
+    height: 500px;
+    margin-bottom: -15px;
+    border: 5px ridge white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px white;
+}
+
 li {
     text-align: left;
     font-weight: 600;
