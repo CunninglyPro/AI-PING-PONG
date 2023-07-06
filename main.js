@@ -9,7 +9,7 @@ var paddle2Y = 685,paddle2Height = 70;
 var score1 = 0, score2 =0;
 var paddle1Y;
 
-var  playerscore =0;
+var playerscore =0;
 var audio1;
 var pcscore =0;
 //ball x and y and speedx speed y and radius
@@ -27,14 +27,15 @@ function setup(){
   video = createCapture(VIDEO);
   video.size(700, 600);
   video.hide();
+  video.parent('canvas');
 
   poseNet = ml5.poseNet(video, modelLoaded);
 }
 
 
 function draw(){
- background(0); 
- image(video, 0, 0, 700, 600);   
+ background(0);
+ image(video, 0, 0, 700, 600); 
 
  fill("black");
  stroke("black");
