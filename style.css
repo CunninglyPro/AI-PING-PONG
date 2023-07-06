@@ -23,7 +23,7 @@ body {
     margin-top: 10px;
 }
 
-#play_btn, #status {
+#play_btn, #status, #restart {
     font-size: 17px;
 }
 
@@ -33,11 +33,15 @@ body {
 
 #canvas {
     width: 720px;
-    height: 600px;
-    margin-bottom: -15px;
+    height: 610px;
+    margin-bottom: 20px;
     border: 5px ridge white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px white;
+}
+
+#restart {
+    margin-bottom: 50px;
 }
 
 li {
